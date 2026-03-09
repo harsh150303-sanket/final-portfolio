@@ -81,13 +81,7 @@ Helping brands scale through data-driven growth systems.
         </div>
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
-        <div className="absolute bottom-0 right-0 h-[85vh] flex items-end pr-10">
-  <img
-    src={harsh}
-    alt="harsh"
-    className="h-full object-contain"
-  />
-</div>
+        
       </section>
     </>
   );
