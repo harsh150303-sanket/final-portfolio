@@ -2,6 +2,7 @@ import {
   frontend,
   backend,
   ux,
+  bwmap,
   prototyping,
   javascript,
   typescript,
