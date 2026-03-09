@@ -39,14 +39,14 @@ const ProjectCard = ({
 
       {active !== id ? (
         <div className="flex items-center justify-start pr-[4.5rem]">
-          <h3
-            className="font-extrabold font-beckman uppercase max-w-[160px]
-            sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
-            absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
-            leading-tight z-20 break-words whitespace-normal"
-          >
-            {name}
-          </h3>
+         <h3
+  className="font-extrabold font-beckman uppercase w-[180px]
+  sm:text-[24px] text-[16px] text-timberWolf tracking-[1px]
+  absolute z-20 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
+  overflow-hidden text-ellipsis whitespace-nowrap"
+>
+  {name}
+</h3>
         </div>
       ) : (
         <>
