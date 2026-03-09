@@ -197,6 +197,5 @@ const projects = [
   demo: '',
 }
 ];
-];
 
 export { services, technologies, experiences, projects };
