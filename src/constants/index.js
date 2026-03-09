@@ -152,118 +152,51 @@ const experiences = [
 ];
 
 const projects = [
-  {
-    id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
-  },
-  {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+{
+  id: 'project-1',
+  name: 'Meta Ads Lead Generation – Ellys Education',
+  description:
+    'Managed Meta Ads campaigns generating 206 qualified conversations with an average cost per lead of ₹20. Optimized targeting and creatives to significantly improve campaign efficiency.',
+  tags: [
+    { name: 'Meta Ads', color: 'blue-text-gradient' },
+    { name: 'Lead Generation', color: 'green-text-gradient' },
+    { name: 'Performance Marketing', color: 'pink-text-gradient' },
+  ],
+  image: bwmap,
+  repo: '',
+  demo: '',
+},
+
+{
+  id: 'project-2',
+  name: 'Campaign Optimization Case Study',
+  description:
+    'Reduced cost per lead from ₹229 in previous campaigns to ₹17–₹25 by restructuring campaigns, improving audience targeting, and optimizing ad creatives.',
+  tags: [
+    { name: 'Meta Ads', color: 'blue-text-gradient' },
+    { name: 'Campaign Optimization', color: 'green-text-gradient' },
+    { name: 'Growth Marketing', color: 'pink-text-gradient' },
+  ],
+  image: bwmap,
+  repo: '',
+  demo: '',
+},
+
+{
+  id: 'project-3',
+  name: 'Digital Marketing Setup – RKG Trends',
+  description:
+    'Implemented complete digital marketing infrastructure including SEO setup, GA4 installation, Meta Pixel implementation, and Google Merchant Center integration. Also launched campaigns for Better Mee.',
+  tags: [
+    { name: 'SEO', color: 'blue-text-gradient' },
+    { name: 'GA4', color: 'green-text-gradient' },
+    { name: 'Meta Pixel', color: 'pink-text-gradient' },
+  ],
+  image: bwmap,
+  repo: '',
+  demo: '',
+}
+];
 ];
 
 export { services, technologies, experiences, projects };
