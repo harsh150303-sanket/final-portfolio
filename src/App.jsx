@@ -52,10 +52,10 @@ const App = () => {
   className="fixed bottom-5 right-5 z-50"
 >
   <img
-    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
-    alt="WhatsApp"
-    className="w-14 h-14 rounded-full shadow-lg hover:scale-110 transition"
-  />
+  src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+  alt="WhatsApp"
+  className="w-14 h-14 rounded-full shadow-lg hover:scale-110 transition"
+/>
 </a>
 
 </div> {/* closes main div */}
