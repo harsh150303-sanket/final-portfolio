@@ -40,8 +40,26 @@ const App = () => {
         <div className="relative z-0">
           <Contact />
         </div>
-      </div>
-    </BrowserRouter>
+        <div className="relative z-0">
+  <Contact />
+</div>
+
+{/* ✅ ADD WHATSAPP BUTTON HERE */}
+<a
+  href="https://wa.me/919714232024"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-5 right-5 z-50"
+>
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+    alt="WhatsApp"
+    className="w-14 h-14 rounded-full shadow-lg hover:scale-110 transition"
+  />
+</a>
+
+</div> {/* closes main div */}
+</BrowserRouter>
   );
 };
 
