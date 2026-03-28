@@ -46,13 +46,24 @@ const App = () => {
   href="https://wa.me/919714232024?text=Hi%20I%20visited%20your%20website"
   target="_blank"
   rel="noopener noreferrer"
-  onClick={() => {
+  onClick={(e) => {
+    e.preventDefault();
+
+    console.log("WhatsApp Click Fired ✅");
+
     if (window.gtag) {
       window.gtag('event', 'whatsapp_click', {
         event_category: 'engagement',
         event_label: 'WhatsApp Button'
       });
+      console.log("GA event sent ✅");
+    } else {
+      console.log("GA NOT FOUND ❌");
     }
+
+    setTimeout(() => {
+      window.open("https://wa.me/919714232024?text=Hi%20I%20visited%20your%20website", "_blank");
+    }, 300);
   }}
   className="fixed bottom-5 right-5 z-50 bg-green-500 p-3 rounded-full shadow-lg hover:scale-110 transition"
 >
