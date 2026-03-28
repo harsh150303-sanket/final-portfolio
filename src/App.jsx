@@ -43,18 +43,25 @@ const App = () => {
 
 {/* ✅ ADD WHATSAPP BUTTON HERE */}
 <a
-  href="https://wa.me/919714232024"
+  href="https://wa.me/919714232024?text=Hi%20I%20visited%20your%20website"
   target="_blank"
   rel="noopener noreferrer"
-  className="fixed bottom-5 right-5 z-50"
+  onClick={() => {
+    if (window.gtag) {
+      window.gtag('event', 'whatsapp_click', {
+        event_category: 'engagement',
+        event_label: 'WhatsApp Button'
+      });
+    }
+  }}
+  className="fixed bottom-5 right-5 z-50 bg-green-500 p-3 rounded-full shadow-lg hover:scale-110 transition"
 >
   <img
-  src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-  alt="WhatsApp"
-  className="w-14 h-14 rounded-full shadow-lg hover:scale-110 transition"
-/>
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    alt="WhatsApp"
+    className="w-8 h-8"
+  />
 </a>
-
 </div> {/* closes main div */}
 </BrowserRouter>
   );
